@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <title>Trivia Game</title>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Totally Trivial Trivia!</h1>
+            <button id="startGame">Start</button>
+            <br><br>
+
+            <div class="timer" id="timeLeft"></div>
+
+            <div class="form" id="questions-container">
+                <form name="quizForm" onsubmit="return submitAnswers()">
+                    <h4>1. What is the worlds largest ocean?</h4>
+                    <input type = "radio" name = "q1" value = "a" id = "q1a"> Atlantic 
+                    <input type = "radio" name = "q1" value = "b" id = "q1b"> Pacific
+                    <input type = "radio" name = "q1" value = "c" id = "q1c"> Arctic
+                    <input type = "radio" name = "q1" value = "d" id = "q1d"> Indian
+
+                    <h4>2. What is the biggest island on Earth?</h4>
+                    <input type = "radio" name = "q2" value = "a" id = "q2a"> Barbados
+                    <input type = "radio" name = "q2" value = "b" id = "q2b"> Antigua
+                    <input type = "radio" name = "q2" value = "c" id = "q2c"> Greenland
+                    <input type = "radio" name = "q2" value = "d" id = "q2d"> Bora Bora
+
+                    <h4>3. What country is Prague in?</h4>
+                    <input type = "radio" name = "q3" value = "a" id = "q3a"> Germany
+                    <input type = "radio" name = "q3" value = "b" id = "q3b"> Czech Republic
+                    <input type = "radio" name = "q3" value = "c" id = "q3c"> Australia
+                    <input type = "radio" name = "q3" value = "d" id = "q3d"> Mexico
+
+                    <h4>4. What is the capital city of Spain?</h4>
+                    <input type = "radio" name = "q4" value = "a" id = "q4a"> Malaga
+                    <input type = "radio" name = "q4" value = "b" id = "q4b"> Seville
+                    <input type = "radio" name = "q4" value = "c" id = "q4c"> Barcelona
+                    <input type = "radio" name = "q4" value = "d" id = "q4d"> Madrid
+                <br><br>
+                </form>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+        <script type="text/javascript" src= "assets/javascript/app.js"></script>
+    </body>
+</html>

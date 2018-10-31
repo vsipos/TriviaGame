@@ -1,0 +1,34 @@
+body {
+    background: url(../images/background.jpg)
+}
+
+#container {
+    background: rgba(255, 186, 107, 0.952);
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 0px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+h1 {
+    color: navy;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+#startGame {
+    text-align: center;
+    background: rgb(82, 193, 230);
+    font-size: 17px;
+    width: 150px;
+    height: 75px;
+    color: white;
+    border: 1px;
+}
